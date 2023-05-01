@@ -1,0 +1,367 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+/* .App-header {
+  background-color: #61dafb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.App1 {
+  text-align: center;
+}
+.App-header1 {
+  background-color: #61da;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* .list{
+  margin-top: 10px;
+  width: 500px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(59, 24, 109, 0.667);
+  margin-left: 35%;
+}
+.item{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.inpu{
+  padding: 10px;
+  width: 300px;
+  font-weight: bold;
+}
+.add{
+  padding: 10px;
+} */
+.inpu{
+  padding: 10px;
+  width: 300px;
+  font-weight: bold;
+}
+.add{
+  padding: 10px;
+}
+.list{
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+}
+.item{
+  margin-top: 10px;
+  width: 50%;
+  display:flex;
+  justify-content: space-between;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: green;
+}
+
+
+.logo{
+  text-decoration: none;
+  font-size: 37px;
+  background-color: darkgreen;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+}
+.links{
+  position:sticky;
+  top: 0;
+  background-color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  margin-bottom: 3px;
+
+}
+.hom{
+  text-decoration: none;
+  margin-left: 0px;
+  font-size: 1.2rem;
+  color: #666;
+ 
+}
+.hom:hover{
+  text-decoration: underline 2px solid yellow;
+  
+}
+.lin{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.stik{
+  margin-top: 5px;
+}
+.btn{
+  text-decoration: none;
+  
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 200;
+  margin-right: 14px;
+  margin-top: 20px;
+  background-color: rgb(12, 12, 141);
+}
+.linns{
+     margin-left:40px;
+    text-decoration:none;
+    color:grey;
+    margin-top:28px;
+    font-size:20px
+}
+.linns:hover{
+  color:darkcyan;
+}
+.container{
+  height: 200vh;
+  margin-top: 10px;
+}
+.contain{
+  display: flex;
+  gap: 2;
+}
+.left-nav{
+  position: relative;
+  width: 300px;
+}
+.left{
+  position: fixed;
+  overflow-y: scroll;
+  height:70vh;
+  /* background-color: bisque; */
+  width: 280px;
+}
+.search{
+  width: 950px;
+  height: 100vh;
+  /* background-color: burlywood; */
+}
+.right-post{
+    /* background-color: blanchedalmond; */
+    width: 300px;
+    height: 100vh;
+    right: 0;
+}
+.categories{
+  margin: 10px;
+}
+.filter{
+  padding: 7px;
+  width: 250px;
+  border-radius: 3px;
+}
+.search-box{
+  padding: 10px;
+}
+.sbox{
+  width: 790px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(198, 189, 189);
+  font-size: 18px;
+
+}
+.sbtn{
+  padding: 12px;
+  border: 1px solid rgba(220, 220, 220, 0.677);
+  border-radius: 5px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+.sbtn:hover{
+  background-color: rgba(220, 220, 220, 0.677);
+}
+.data-container{
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow:"0 0 10px 5px green";
+
+}
+.data{
+   padding: 5px;
+   width: 869px;
+   height: 200px;
+   box-shadow: 0 0 8px 2px dimgrey;
+    margin-top: 30px;
+    border-radius: 16px;
+    background-color: ghostwhite;
+
+}
+.t1{
+  font-size: 27px;
+}
+.d1{
+  font-size: 1.2rem;
+}
+.bot{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.like{
+  border: none;
+  background-color: rgba(255, 0, 0, 0.216);
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+.like:hover{
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.li-sc{
+  width: 70px;
+
+}
+.ttt{
+  display: flex;
+  justify-content: space-between;
+}
+.liss{
+  border-radius: 10px;
+  background-color:rgb(178, 177, 177,0.8) ;
+  width: 100px;
+  padding: 2px;
+}
+.con-post{
+  padding: 10px;
+}
+.pbtn{
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(30, 30, 140,0.8);
+  width: 80px;
+}
+.pbtn:hover{
+  background-color: rgb(30, 30, 140);
+}
+.foot-container{
+  position:relative;
+  height: 120px;
+  width: 98.7vw;
+  background-color: gainsboro;
+  margin-bottom: 15px;
+}
+.busi{
+  /* position: relative; */
+  height: auto;
+  min-width: 95vw;
+  display: flex;
+  z-index: 0;
+  margin-top: 10px;
+}
+.post-detail{
+  width: 500px;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.post-container{
+  width:100%;
+  height: auto;
+  background-color: #fff;
+}
+.post-btn{
+  margin-left: 15px;
+  border: 1px solid rgba(17, 65, 17, 0.772);
+  font-size: 1.2rem;
+  color: rgb(9, 33, 4);
+  font-weight: 200;
+  background-color: transparent;
+  margin-right: 7px;
+  
+}
+/* Applied job table */
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+th,td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover{
+  background-color: cadetblue;
+}
+.dash-link{
+
+  padding: 10px;
+  cursor: pointer;
+  color:white;
+  text-decoration: none;
+}
+.dash-link:hover{
+  color: lightblue;
+}
+.btnss{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  font-weight:bold;
+  background-color: rgb(12, 12, 141);
+}
+.course-temp:hover{
+  box-shadow: 0 0 10px 5px grey;
+}
+.c-btn:hover{
+  background-color:darkblue;
+}
+.rec{
+  width:340px;
+  background-color: white;
+  padding: 10px;
+  font-size: 18px;
+  color: darkblue;
+  border: solid darkblue;
+}
+.rec:hover{
+  color: white;
+  background-color: darkblue;
+}
